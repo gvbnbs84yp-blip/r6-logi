@@ -12,7 +12,7 @@ DelayRate = 7 -- DO NOT CHANGE IF YOU DON'T KNOW WHAT YOU'RE DOING.
 
 -------------  Recoil Presets ------
 if RecoilControlMode == "Low" then
-  RecoilControlStrength = 8
+  RecoilControlStrength = 5
 elseif RecoilControlMode == "Medium" then
   RecoilControlStrength = 10
 elseif RecoilControlMode == "High" then
@@ -36,7 +36,7 @@ end
 1: I did NOT make the Recoil Control Code, I just simplified everything, so you can adjust it to your needs
 2: You don't need to hold down your toggle key, its a toggle.
 3: You must hold mouse1 and mouse2, or else IT WONT WORK!
-4: DelayRate Works in MS, the lower the faster. 7ms = 0.07s, 2000ms = 2s. However the preset Delay rate is perfect for most FPS games. 
+4: DelayRate Works in MS, the lower the faster. 6ms = 0.06s, 1000ms = 1s. However the preset Delay rate is perfect for most FPS games. 
 --]]
 --------------------------------------
 ---------- Dont touch this -----------
